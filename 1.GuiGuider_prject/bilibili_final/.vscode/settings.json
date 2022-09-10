@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "lvgl.h": "c",
+        "events_init.h": "c",
+        "stdio.h": "c"
+    }
+}

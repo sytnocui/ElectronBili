@@ -1,0 +1,3 @@
+C:/Users/10798/Developer/GUI-Guider-Projects/bilibili_final/deploy/MCUXpresso/sdk/CMakeFiles/lvgl_guider.elf.dir
+C:/Users/10798/Developer/GUI-Guider-Projects/bilibili_final/deploy/MCUXpresso/sdk/CMakeFiles/edit_cache.dir
+C:/Users/10798/Developer/GUI-Guider-Projects/bilibili_final/deploy/MCUXpresso/sdk/CMakeFiles/rebuild_cache.dir

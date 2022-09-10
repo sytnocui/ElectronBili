@@ -1,0 +1,389 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Mon Aug 15 23:07:16 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/10798/Developer/GUI-Guider-Projects/bilibili_final
+# default
+SHELL := sh.exe
+# environment
+CLION = D:\JetBrains\CLion 2021.1.3\bin;
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_translationsConfigFile":"C:\\Users\\10798\\AppData\\Roaming\\Code\\clp\\08bdb29c43b4c03defdaaecc51ad48b6.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\10798\\AppData\\Roaming\\Code\\clp\\08bdb29c43b4c03defdaaecc51ad48b6.zh-cn" 
+,"_resolvedLanguagePackCoreLocation":"C:\\Users\\10798\\AppData\\Roaming\\Code\\clp\\08bdb29c43b4c03defdaaecc51ad48b6.zh-cn\\6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"C:\\Users\\10798\\AppData\\Roaming\\Code\\clp\\08bdb29c43b4c03defdaaecc51ad48b6.zh-cn\\corrupted.info","_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = D:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\bin;
+# environment
+ONEDRIVE = C:\Users\10798\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = C:\Users\10798\AppData\Local\Temp
+# environment
+WEBSTORM = D:\JetBrains\WebStorm 2021.1.3\bin;
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = D:\Program Files\Microsoft\Microsoft VS Code
+# environment
+PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp;D:\VMware\VMware Workstation\bin\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk-16.0.2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Bandizip\;D:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\MATLAB\R2021b\runtime\win64;D:\MATLAB\R2021b\bin;D:\MATLAB\R2019b\runtime\win64;D:\MATLAB\R2019b\bin;D:\MATLAB\R2019b\polyspace\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;D:\Redis\;D:\Apache\apache-maven-3.8.4\bin;D:\NetSarang\Xshell 7\;D:\NetSarang\Xftp 7\;D:\MySQL\MySQL Server 5.7\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.1.1\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\10798\Desktop\TinyML\arduino-cli_0.22.0_Windows_64bit;D:\Program Files (x86)\Arduino;D:\Anaconda3\Scripts;D:\MinGW\bin;D:\ST\gcc-arm-none-eabi-10.3-2021.10\bin;D:\ffmpeg\ffmpeg-5.0.1\bin;D:\Manim\sox-14-4-2;D:\NXP\GUI-Guider-1.3.1-GA\environment\mingw\bin;D:\NXP\GUI-Guider-1.3.1-GA\environment\tools\unixTools;D:\texlive\2022\bin\win32;C:\tools\TinyTeX\bin\win32;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\10798\AppData\Local\Microsoft\WindowsApps;D:\JetBrains\CLion 2021.1.3\bin;;D:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\bin;;D:\JetBrains\JetBrains Rider 2021.1.5\bin;;D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.3\bin;;C:\Infineon\LauncherService;D:\Program Files\Microsoft\Microsoft VS Code\bin;D:\JetBrains\DataGrip 2021.1.3\bin;;D:\JetBrains\IntelliJ IDEA 2021.1.3\bin;;D:\JetBrains\WebStorm 2021.1.3\bin;;D:\JetBrains\PyCharm 2021.1.3\bin;;D:\JetBrains\PhpStorm 2021.1.4\bin;;C:\Users\10798\AppData\Roaming\npm
+# environment
+LM_LICENSE_FILE = D:\Program Files\lscc\diamond\3.10_x64\license\license.dat;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133021941815565582
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\10798
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# environment
+PHPSTORM = D:\JetBrains\PhpStorm 2021.1.4\bin;
+# environment
+INTELLIJ IDEA = D:\JetBrains\IntelliJ IDEA 2021.1.3\bin;
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8328_QLHEMILDLZDOZDWD
+# environment
+SW_SIM_MPIT = INTELMPI
+# environment
+SW_SIM_HYDRA = C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\
+# environment
+COMPUTERNAME = SYTNOCUI
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+NVCUDASAMPLES11_3_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.3
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = 10798
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+JETBRAINS RIDER = D:\JetBrains\JetBrains Rider 2021.1.5\bin;
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\10798\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\SYTNOCUI
+# envi 
+ronment
+ONEDRIVECONSUMER = C:\Users\10798\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = SYTNOCUI
+# environment
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+# environment
+MAKELEVEL := 0
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.3\bin;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+JAVA_HOME = D:\Program Files\Java\jdk-16.0.2
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\10798\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.3
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\7a6bc8164fe1d78070df253ceb1a6199-1.70.1-main-sock
+# environment
+HOMEPATH = \Users\10798
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\10798\AppData\Roaming
+# environment
+TEMP = C:\Users\10798\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+C 
+UDA_PATH_V11_3 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+DAS_HOME = C:\Program Files\DAS64
+# environment
+SW_SIM_TEMP = C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\
+# automatic
+^F = $(notdir $^)
+# environment
+DATAGRIP = D:\JetBrains\DataGrip 2021.1.3\bin;
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+ 
+# environment
+PROCESSOR_REVISION = 9e0a
+# environment
+PYCHARM = D:\JetBrains\PyCharm 2021.1.3\bin;
+# environment
+IFX_TOOLBOX_UUID = baae938d-89a2-3819-8079-ff8685239def
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+LATTICE_INI_PATH = C:\lsc_env
+# environment
+VSCODE_PID = 8328
+# environment
+USERDOMAIN_ROAMINGPROFILE = SYTNOCUI
+# variable set hash-table stats:
+# Load=112/1024=11%, Rehash=0, Collisions=16/127=13%
+
+# Pattern-specific Variable Values
+
+# No pat 
+tern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\Infineon\LauncherService (key C:/Infineon/LauncherService, mtime 1642994003): 6 files, no impossibilities.
+# D:\ST\gcc-arm-none-eabi-10.3-2021.10\bin (key D:/ST/gcc-arm-none-eabi-10.3-2021.10/bin, mtime 1657279053): 35 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/, mtime 1645074631): 6 files, no impossibilities.
+# D:\JetBrains\WebStorm 2021.1.3\bin (key D:/JetBrains/WebStorm 2021.1.3/bin, mtime 1647843584): 31 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1651145973): 5 files, no impossibilities.
+# D:\nodejs\ (key D:/nodejs/, mtime 1646221634): 13 files, no impossibilities.
+# D:\JetBrains\PyCharm 2021.1.3\bin (key D:/JetBrains/PyCharm 2021.1.3/bin, mtime 1647844838): 29 files, no impossibilities.
+# D:\JetBrains\C 
+Lion 2021.1.3\bin (key D:/JetBrains/CLion 2021.1.3/bin, mtime 1647844784): 34 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622915625): 31 files, no impossibilities.
+# . (key c:/Users/10798/Developer/GUI-Guider-Projects/bilibili_final, mtime 1660559781): 10 files, no impossibilities.
+# D:\MATLAB\R2021b\runtime\win64 (key D:/MATLAB/R2021b/runtime/win64, mtime 1654623310): 10 files, no impossibilities.
+# D:\MATLAB\R2019b\polyspace\bin (key D:/MATLAB/R2019b/polyspace/bin, mtime 1645081807): 83 files, no impossibilities.
+# D:\MinGW\bin (key D:/MinGW/bin, mtime 1657183583): 142 files, no impossibilities.
+# C:\Program Files\MySQL\MySQL Shell 8.0\bin\ (key C:/Program Files/MySQL/MySQL Shell 8.0/bin/, mtime 1646409141): 9 files, no impossibilities.
+# D:\MySQL\MySQL Server 5.7\bin (key D:/MySQL/MySQL Server 5.7/bin, mtime 1646408967): 34 files, no impossibilities.
+# D:\NXP\GUI-Guider-1.3.1-GA\environment\mingw\bin (key D:/NXP/GUI-Guider-1.3.1-GA/environment/mingw/bin, mtime 1648523336): 143 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp, mtime 1651145961): 14 files, no impossibilities.
+# D:\NetSarang\Xshell 7\ (key D:/NetSarang/Xshell 7/, mtime 1646394010): 39 files, no impossibilities.
+# D:\texlive\2022\bin\win32 (key D:/texlive/2022/bin/win32, mtime 1657724590): 554 files, no impossibilities.
+# D:\JetBrains\PhpStorm 2021.1.4\bin (key D:/JetBrains/PhpStorm 2021.1.4/bin, mtime 1647844908): 31 files, no impossibilities.
+# D:\Program Files\Bandizip\ (key D:/Program Files/Bandizip/, mtime 1657379616): 22 files, no impossibilities.
+# D:\Program Files\Microsoft\Microsoft VS Code\bin (key D:/Program Files/Microsoft/Microsoft VS Code/bin, mtime 1660497028): 4 files, no impossibilities.
+# C:\Python310\: could not be stat'd.
+# D:\JetBrains\JetBrains Rider 2021.1.5\bin (key D:/JetBrains/JetBrains Rider 2021.1.5/bin, mtime 1647845251): 
+ 32 files, no impossibilities.
+# D:\MATLAB\R2019b\bin (key D:/MATLAB/R2019b/bin, mtime 1645082467): 18 files, no impossibilities.
+# D:\Program Files\Git\cmd (key D:/Program Files/Git/cmd, mtime 1644147625): 8 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1651145956): 11 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/, mtime 1645074622): 12 files, no impossibilities.
+# C:\Python310\Scripts\: could not be stat'd.
+# D:\NetSarang\Xftp 7\ (key D:/NetSarang/Xftp 7/, mtime 1646394465): 27 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\120\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/120/DTS/Binn/, mtime 1645074631): 38 files, no impossibilities.
+# D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.3\bin: could not be stat'd.
+# D:\Program Files\Java\jdk-16.0.2\bin (ke 
+y D:/Program Files/Java/jdk-16.0.2/bin, mtime 1642480042): 123 files, no impossibilities.
+# D:\NXP\GUI-Guider-1.3.1-GA\environment\tools\unixTools (key D:/NXP/GUI-Guider-1.3.1-GA/environment/tools/unixTools, mtime 1648523336): 8 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler (key C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler, mtime 1645818853): 17 files, no impossibilities.
+# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1646221661): 13 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1660144274): 117 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin, mtime 1651148339): 52 files, no impossibilities.
+# D:\ffmpeg\ffmpeg-5.0.1\bin (key D:/ffmpeg/ffmpeg-5.0.1/bin, mtime 1657716710): 5 files, no impossibilities.
+# D:\Manim\sox-14-4-2 (key D:/Manim/sox-14-4-2, mtime 1657717339): 28 files, no impossibilities.
+# D:\Redis\ (key D:/Redis/, mtime 1646493811): 18 files, no impossibilities.
+# C:\Users\10798\AppData\Roaming\npm (key C:/Users/10798/AppData/Roaming/npm, mtime 1653406232): 27 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1654853977): 171 files, no impossibilities.
+# C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\ (key C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/, mtime 1645074762 
+): 73 files, no impossibilities.
+# D:\MATLAB\R2019b\runtime\win64 (key D:/MATLAB/R2019b/runtime/win64, mtime 1645081763): 10 files, no impossibilities.
+# C:\Users\10798\Desktop\TinyML\arduino-cli_0.22.0_Windows_64bit: could not be stat'd.
+# D:\JetBrains\IntelliJ IDEA 2021.1.3\bin (key D:/JetBrains/IntelliJ IDEA 2021.1.3/bin, mtime 1647356181): 34 files, no impossibilities.
+# D:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\bin: could not be stat'd.
+# C:\Users\10798\AppData\Local\Microsoft\WindowsApps (key C:/Users/10798/AppData/Local/Microsoft/WindowsApps, mtime 1659619829): 20 files, no impossibilities.
+# D:\Anaconda3\Scripts (key D:/Anaconda3/Scripts, mtime 1660493215): 329 files, no impossibilities.
+# C:\tools\TinyTeX\bin\win32 (key C:/tools/TinyTeX/bin/win32, mtime 1657720622): 116 files, no impossibilities.
+# D:\VMware\VMware Workstation\bin\ (key D:/VMware/VMware Workstation/bin/, mtime 1646234891): 4 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.1.1\  
+(key C:/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.1/, mtime 1651145942): 12 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1660186260): 3176 files, no impossibilities.
+# D:\Apache\apache-maven-3.8.4\bin (key D:/Apache/apache-maven-3.8.4/bin, mtime 1646319648): 8 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\120\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/120/Tools/Binn/, mtime 1645074622): 14 files, no impossibilities.
+# D:\Program Files (x86)\Arduino (key D:/Program Files (x86)/Arduino, mtime 1644941110): 21 files, no impossibilities.
+# D:\JetBrains\DataGrip 2021.1.3\bin (key D:/JetBrains/DataGrip 2021.1.3/bin, mtime 1647844020): 31 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# D:\MATLAB\R2021b\bin (key D:/MATLAB/R2021b/bin, mtime 1654623338): 21 files, no impossibilities.
+
+# 5879 files, no impossibilities in 61 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+ 
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 11 (10) / strings  
+make.exe: *** No rule to make target 'all'.  Stop.
+
+= 5262 / storage = 81773 B / avg = 15 B
+# current buf: size = 8174 B / used = 127 B / count = 9 / avg = 14 B
+# other used: total = 73599 B / count = 5253 / avg = 14 B
+# other free: total = 94 B / max = 15 B / min = 4 B / avg = 9 B
+
+# strcache performance: lookups = 5947 / hit rate = 11%
+# hash-table stats:
+# Load=5262/8192=64%, Rehash=0, Collisions=3833/5947=64%
+# Finished Make data base on Mon Aug 15 23:07:16 2022
+
+ 

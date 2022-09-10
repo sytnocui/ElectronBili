@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/10798/Developer/GUI-Guider-Projects/bilibili_final/deploy/MCUXpresso/sdk/startup/startup_MIMXRT1062.S
+

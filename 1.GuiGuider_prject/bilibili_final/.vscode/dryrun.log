@@ -1,0 +1,7 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/10798/Developer/GUI-Guider-Projects/bilibili_final'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+
+make.exe: Leaving directory 'c:/Users/10798/Developer/GUI-Guider-Projects/bilibili_final'
+ 
